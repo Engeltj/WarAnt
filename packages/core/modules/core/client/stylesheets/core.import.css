@@ -1,0 +1,22 @@
+.header .stat {
+  box-sizing: border-box;
+}
+
+div.flex-container {
+  display: flex;
+  width: 100%;
+}
+
+div.flex-container.middle-aligned {
+  align-items: center;
+}
+
+div.flex-item {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.header .stat {
+  font-size: 0.8em;
+  color: white;
+}

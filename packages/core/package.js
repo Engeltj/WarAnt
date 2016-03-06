@@ -17,5 +17,6 @@ Package.onUse(function(api) {
     'react-meteor-data',
     'kadira:flow-router'
   ]);
+  api.addFiles('modules/core/client/stylesheets/core.import.css');
   api.mainModule('core.js');
 });

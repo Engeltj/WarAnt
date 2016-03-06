@@ -6,7 +6,9 @@ export const MainLayout = ({ content }) => (
   <div>
     <Header />
 
-    {content}
+    <div style={{ alignItems: 'stretch' }}>
+      {content}
+    </div>
 
     <Footer />
   </div>
