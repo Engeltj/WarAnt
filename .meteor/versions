@@ -69,7 +69,6 @@ spacebars@1.0.8-modules.8
 spacebars-compiler@1.0.8-modules.8
 standard-minifier-css@1.0.3-beta.11
 standard-minifier-js@1.0.3-beta.11
-stevezhu:lodash@0.1.0
 templating@1.1.6-modules.8
 templating-tools@1.0.1-modules.8
 tracker@1.0.10-modules.8
