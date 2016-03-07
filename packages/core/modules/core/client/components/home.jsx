@@ -8,7 +8,7 @@ export const Home = React.createClass({
   render() {
 
     let style = {
-      backgroundColor: Colors.grey500,
+      backgroundColor: Colors.yellow500,
       height: 'calc(100vh - 64px - 48px)'
     };
 

@@ -21,7 +21,7 @@ export const Header = React.createClass({
       health: 11,
       food: 14,
       energy: 7,
-      money: 1834334
+      money: 183433467
     };
   },
 
@@ -60,7 +60,7 @@ export const Header = React.createClass({
     };
 
     let styleTwo = {
-      background: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://upload.wikimedia.org/wikipedia/commons/7/79/US_Woodland_pattern.svg)  no-repeat center center fixed',
+      background: 'linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(https://upload.wikimedia.org/wikipedia/commons/7/79/US_Woodland_pattern.svg)  no-repeat center center fixed',
       backgroundSize: 'cover'
     }
 
@@ -70,8 +70,11 @@ export const Header = React.createClass({
       <AppBar style={ styleTwo } className="header" showMenuIconButton={false}>
         <div className="flex-container middle-aligned">
           <div style={{ flexGrow: '3' }} className="flex-item stat">
-            <FontIcon color={Colors.yellow500} className="fa fa-usd"></FontIcon>
-            <h2 style={{ display: 'inline' }}>&nbsp;&nbsp;{ this.formatMoney(money) }</h2>
+            <h2 style={{ display: 'inline', color: Colors.lightGreenA400 }}>
+              <FontIcon color={Colors.yellow500} className="fa fa-usd"></FontIcon>
+              &nbsp;
+              { this.formatMoney(money) }
+            </h2>
           </div>
           <div className="flex-item stat">
             <LocalHospital color={Colors.red800} /><br />
